@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Show on Maps",
+    "description": "A simple extension for Google Chrome that gives the ability to quick search on Google Maps a text that has been highlighted.",
+    "version": "0.1",
+    "permissions": [
+        "contextMenus"
+    ],
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
+    "background": {
+        "scripts": [
+            "main.js"
+        ],
+        "persistent": false
+    }
+}
